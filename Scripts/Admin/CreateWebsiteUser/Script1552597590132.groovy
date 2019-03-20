@@ -86,7 +86,7 @@ WebUI.click(findTestObject('AdminConsole/AC_SideBarNav/Administration/WebsiteUse
 
 WebUI.waitForElementVisible(findTestObject('AdminConsole/AC_SideBarNav/Administration/WebsiteUsers/UserProfile/banner_NotificationSuccess'), config.AppConfig.waitTime)
 
-Thread.sleep(500) // wait for activation email to be sent to database
+Thread.sleep(1000) // wait for activation email to be sent to database
 
 def resetPasswordlink = CustomKeywords.'helper.General.ActivateAccount'(userName)
 

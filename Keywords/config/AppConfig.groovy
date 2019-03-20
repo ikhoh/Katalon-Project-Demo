@@ -20,9 +20,9 @@ import internal.GlobalVariable
 
 public class AppConfig {
 	public static int waitTime = 30;
-	public static boolean resetDatabase_everyTestCase = false;
-	public static boolean resetDatabase_everyTestSuite = false;
-	public static String siteUrl = "https://trunk.local.com";
+	public static boolean resetDatabase_everyTestCase = false
+	public static boolean resetDatabase_everyTestSuite = false
+	public static String siteUrl = "https://trunk.local.com"
 
 	// Test Rail info
 	public static String testRailAuthCredentials = "Basic " + helper.General.EncodeCredentials("qatester@insitesoft.com", "insite110")
@@ -33,4 +33,8 @@ public class AppConfig {
 	public static dbName = 'Insite.Commerce.trunk'
 	public static dbUsername = 'sa'
 	public static dbPassword = 'Password1'
+
+	// Path to Insite.Admin.Automated.dll to run ResetDatabase script from Insite.Commerce, and Nunit3 exe file path (https://nunit.org/download/)
+	public static String pathToInsiteAdminAutomatedDll = "C:\\Projects\\Insite.Commerce.Source\\trunk\\Automation\\Insite.Admin.Automated\\bin\\Debug\\Insite.Admin.Automated.dll"
+	public static String pathToNunit3ExeFile = "C:\\Program Files (x86)\\NUnit.org\\nunit-console\\nunit3-console.exe"
 }

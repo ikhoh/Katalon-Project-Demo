@@ -47,8 +47,8 @@ public class Cmd {
 
 	@Keyword
 	public void ResetDatabase() {
-		String resetDatabaseProjectDll = "C:\\Projects\\Insite.Commerce.Source\\trunk\\Automation\\Insite.Admin.Automated\\bin\\Debug\\Insite.Admin.Automated.dll";
-		String nunit3ExeFilePath = "C:\\Program Files (x86)\\NUnit.org\\nunit-console\\nunit3-console.exe";
+		String resetDatabaseProjectDll = config.AppConfig.pathToInsiteAdminAutomatedDll
+		String nunit3ExeFilePath = config.AppConfig.pathToNunit3ExeFile
 
 		try {
 			// Execute command
