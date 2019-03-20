@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CreateWebsiteUser</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1cd15835-1759-44ff-bd3e-1526ec7bb6a2</testCaseGuid>
+   <variable>
+      <defaultValue>'142828'</defaultValue>
+      <description></description>
+      <id>1e979186-c211-43e9-84c4-c0a1e06d699c</id>
+      <masked>false</masked>
+      <name>TestRail_TestCaseID</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke Tests,,,2019-03-19 10:53:54,2019-03-19 10:53:56,1.906s,FAILED
+,,,,,,
+Test Cases/Pages/Sign In/Self-Register on the Storefront,,,2019-03-19 10:53:54,2019-03-19 10:53:55,1.054s,FAILED
+Start listener action : beforeTestCase,,,2019-03-19 10:53:54,2019-03-19 10:53:54,0.000s,ERROR
+navigateToUrl(Home),,,2019-03-19 10:53:55,2019-03-19 10:53:55,0.297s,FAILED
+Start listener action : afterTestCase,,,2019-03-19 10:53:55,2019-03-19 10:53:55,0.501s,FAILED
+,,,,,,
+Test Cases/Pages/Check Out/BasicGuestCheckOut,,,2019-03-19 10:53:55,2019-03-19 10:53:56,0.375s,FAILED
+Start listener action : beforeTestCase,,,2019-03-19 10:53:55,2019-03-19 10:53:55,0.015s,ERROR
+navigateToUrl(BasicProduct_100),,,2019-03-19 10:53:56,2019-03-19 10:53:56,0.016s,FAILED
+Start listener action : afterTestCase,,,2019-03-19 10:53:56,2019-03-19 10:53:56,0.203s,FAILED

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BasicGuestCheckOut</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c502b857-c575-471f-a932-3732dba4e5c1</testCaseGuid>
+   <variable>
+      <defaultValue>'142810'</defaultValue>
+      <description></description>
+      <id>fb0cb68c-f8f8-4139-ab87-3f9468c2c994</id>
+      <masked>false</masked>
+      <name>TestRail_TestCaseID</name>
+   </variable>
+</TestCaseEntity>

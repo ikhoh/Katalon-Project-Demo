@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>_UpdateTestRailResults</name>
+   <tag></tag>
+   <comment>response=&quot; + response.toString()
+listof_testcases.toString()
+response=&quot; + response.toString()
+request=&quot; + request.toString()
+response=&quot; + response.toString()</comment>
+   <testCaseGuid>1b36dd6b-6e7d-41c2-a72b-98525c149d9e</testCaseGuid>
+</TestCaseEntity>

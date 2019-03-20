@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>GetWishLists</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>af514f34-57c2-4b84-926e-efaca9b98870</testCaseGuid>
+   <variable>
+      <defaultValue>'142812'</defaultValue>
+      <description></description>
+      <id>5164bf99-ecaa-4e27-ad22-8cc66dbd9cea</id>
+      <masked>false</masked>
+      <name>TestRail_TestCaseID</name>
+   </variable>
+</TestCaseEntity>

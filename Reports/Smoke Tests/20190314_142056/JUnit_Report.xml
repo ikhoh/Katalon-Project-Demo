@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke Tests" time="115" tests="1" failures="1" errors="0">
+   <testsuite name="Smoke Tests" tests="1" failures="1" errors="0" time="115" timestamp="2019-03-14 14:20:58" hostname="ikhoh - DESKTOP-7H7B9HC.is.local" id="Test Suites/Smoke Tests">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ikhoh\\Katalon Studio\\InsiteCommerceAUI.Demo\\Reports\\Smoke Tests\\20190314_142056"/>
+         <property name="logFiles" value="C:\\Users\\ikhoh\\Katalon Studio\\InsiteCommerceAUI.Demo\\Reports\\Smoke Tests\\20190314_142056\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ikhoh\\Katalon Studio\\InsiteCommerceAUI.Demo\\Reports\\Smoke Tests\\20190314_142056\\1552591370665.png"/>
+         <property name="hostName" value="ikhoh - DESKTOP-7H7B9HC.is.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 72.0.3626.121"/>
+         <property name="hostAddress" value="10.1.100.126"/>
+         <property name="sessionId" value="704c37f1c63cee46126172fea91e915a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Pages/Sign In/Self-Register on the Storefront" classname="Test Cases/Pages/Sign In/Self-Register on the Storefront" status="PASSED">
+         <system-out><![CDATA[2019-03-14 14:20:58 - [TEST_CASE][PASSED] - Test Cases/Pages/Sign In/Self-Register on the Storefront: Test Cases/Pages/Sign In/Self-Register on the Storefront
+
+2019-03-14 14:20:58 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Browser is opened with url: ''
+
+2019-03-14 14:20:58 - [TEST_STEP][PASSED] - println("============> Test Case: " + testCaseContext.getTestCaseId() + "<============"): null
+
+2019-03-14 14:20:58 - [TEST_STEP][PASSED] - if (resetDatabase_everyTestCase): null
+
+2019-03-14 14:20:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-14 14:20:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-14 14:20:58 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-14 14:21:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-14 14:21:02 - [TEST_STEP][PASSED] - navigateToUrl(Home): Navigate to 'https://trunk.local.com' successfully
+
+2019-03-14 14:21:08 - [MESSAGE][PASSED] - Navigate to 'https://trunk.local.com' successfully
+
+2019-03-14 14:21:08 - [TEST_STEP][PASSED] - waitForAngularLoad(waitTime): Angular is ready.
+
+2019-03-14 14:21:08 - [MESSAGE][PASSED] - Angular is ready.
+
+2019-03-14 14:21:08 - [TEST_STEP][PASSED] - click(findTestObject("UI/Page_Home/topNav_link_SignIn")): Object: 'Object Repository/UI/Page_Home/topNav_link_SignIn' is clicked on
+
+2019-03-14 14:21:09 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Home/topNav_link_SignIn' is clicked on
+
+2019-03-14 14:21:09 - [TEST_STEP][PASSED] - click(findTestObject("UI/Page_SignIn/link_CreateAccount")): Object: 'Object Repository/UI/Page_SignIn/link_CreateAccount' is clicked on
+
+2019-03-14 14:21:09 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_SignIn/link_CreateAccount' is clicked on
+
+2019-03-14 14:21:09 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Page_CreateAccount/input_EmailAddress"), "katalonAutomationTest@test.com"): Text 'katalonAutomationTest@test.com' is set on object 'Object Repository/UI/Page_CreateAccount/input_EmailAddress'
+
+2019-03-14 14:21:10 - [MESSAGE][PASSED] - Text 'katalonAutomationTest@test.com' is set on object 'Object Repository/UI/Page_CreateAccount/input_EmailAddress'
+
+2019-03-14 14:21:10 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Page_CreateAccount/input_UserName"), "testUser" + UUID.randomUUID()): Text 'testUserdb1924fc-10a4-448a-8149-8f6d766a246b' is set on object 'Object Repository/UI/Page_CreateAccount/input_UserName'
+
+2019-03-14 14:21:10 - [MESSAGE][PASSED] - Text 'testUserdb1924fc-10a4-448a-8149-8f6d766a246b' is set on object 'Object Repository/UI/Page_CreateAccount/input_UserName'
+
+2019-03-14 14:21:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("UI/Page_CreateAccount/input_Password"), "p4y+y39Ir5Oy1MY8jPt0uQ=="): Text ****** has been set on object 'Object Repository/UI/Page_CreateAccount/input_Password'
+
+2019-03-14 14:21:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/UI/Page_CreateAccount/input_Password'
+
+2019-03-14 14:21:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("UI/Page_CreateAccount/input_ConfirmPassword"), "p4y+y39Ir5Oy1MY8jPt0uQ=="): Text ****** has been set on object 'Object Repository/UI/Page_CreateAccount/input_ConfirmPassword'
+
+2019-03-14 14:21:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/UI/Page_CreateAccount/input_ConfirmPassword'
+
+2019-03-14 14:21:10 - [TEST_STEP][PASSED] - click(findTestObject("UI/Page_CreateAccount/button_CreateAccount")): Object: 'Object Repository/UI/Page_CreateAccount/button_CreateAccount' is clicked on
+
+2019-03-14 14:21:10 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_CreateAccount/button_CreateAccount' is clicked on
+
+2019-03-14 14:21:10 - [TEST_STEP][PASSED] - waitForAngularLoad(waitTime): Angular is ready.
+
+2019-03-14 14:21:13 - [MESSAGE][PASSED] - Angular is ready.
+
+2019-03-14 14:21:13 - [TEST_STEP][PASSED] - currentURL = getUrl(): Current window's url is: 'https://trunk.local.com/'
+
+2019-03-14 14:21:13 - [MESSAGE][PASSED] - Current window's url is: 'https://trunk.local.com/'
+
+2019-03-14 14:21:13 - [TEST_STEP][PASSED] - assert currentURL.contains(Home): null
+
+2019-03-14 14:21:13 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: helper.Cmd.KillAllChromeDrivers is PASSED
+
+2019-03-14 14:21:13 - [TEST_STEP][PASSED] - if (!(G_testrail_testcase_id.isEmpty())): null
+
+2019-03-14 14:21:13 - [TEST_STEP][PASSED] - if (!(G_testrail_testcase_status.isEmpty())): null
+
+2019-03-14 14:21:13 - [TEST_STEP][PASSED] - testcase_ids = getTestCaseVariables()["TestRail_TestCaseID"].split(","): null
+
+2019-03-14 14:21:13 - [TEST_STEP][PASSED] - for (def n : (0..(testcase_ids.length - 1))): null
+
+2019-03-14 14:21:13 - [TEST_STEP][PASSED] - G_testrail_testcase_id.add(testcase_ids[n]): null
+
+2019-03-14 14:21:13 - [TEST_STEP][PASSED] - G_testrail_testcase_status.add(testCaseContext.getTestCaseStatus()): null
+
+2019-03-14 14:21:13 - [TEST_STEP][PASSED] - G_testrail_testcase_id.add(testcase_ids[n]): null
+
+2019-03-14 14:21:13 - [TEST_STEP][PASSED] - G_testrail_testcase_status.add(testCaseContext.getTestCaseStatus()): null
+
+2019-03-14 14:21:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Utilities/_UpdateTestRailResults"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Utilities/_UpdateTestRailResults' successfully
+
+2019-03-14 14:21:13 - [TEST_CASE][PASSED] - Test Cases/Utilities/_UpdateTestRailResults: Test Cases/Utilities/_UpdateTestRailResults
+
+2019-03-14 14:21:13 - [TEST_STEP][PASSED] - response = helper.TestRail.get_tests(G_testrail_testrun_id): helper.TestRail.get_tests is PASSED
+
+2019-03-14 14:21:16 - [MESSAGE][INFO] - HAR: C:\Users\ikhoh\Katalon Studio\InsiteCommerceAUI.Demo\Reports\Smoke Tests\20190314_142056\requests\main\0.har
+
+2019-03-14 14:21:16 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-14 14:21:16 - [MESSAGE][PASSED] - helper.TestRail.get_tests is PASSED
+
+2019-03-14 14:21:16 - [TEST_STEP][PASSED] - comment("response=" + response.toString()): response=[[assignedto_id:null, case_id:130726, custom_automatedtestingreferencenumber:null, custom_automation:1, custom_automation_type:0, custom_needupdate:null, custom_precondition:null, custom_regression:2, custom_release_version:[500], custom_retired_test:false, custom_steps_separated:[[content:Navigate to http://trunk.local.com, expected:User is on home page], [content:Click Sign in button, expected:Sign In screen displays]], custom_summary:This is for Automation POC Test Case, estimate:null, estimate_forecast:null, id:776011, milestone_id:null, priority_id:2, refs:null, run_id:903, status_id:1, template_id:1, title:Ian Test Case - Sign In, type_id:6], [assignedto_id:null, case_id:142809, custom_automatedtestingreferencenumber:null, custom_automation:null, custom_automation_type:0, custom_needupdate:null, custom_precondition:null, custom_regression:null, custom_release_version:[], custom_retired_test:false, custom_steps_separated:null, custom_summary:null, estimate:null, estimate_forecast:null, id:776036, milestone_id:null, priority_id:2, refs:null, run_id:903, status_id:1, template_id:1, title:Ian Test Case - Sign In 2, type_id:6], [assignedto_id:null, case_id:142810, custom_automatedtestingreferencenumber:null, custom_automation:null, custom_automation_type:0, custom_needupdate:null, custom_precondition:null, custom_regression:null, custom_release_version:[], custom_retired_test:false, custom_steps_separated:null, custom_summary:null, estimate:null, estimate_forecast:null, id:776037, milestone_id:null, priority_id:2, refs:null, run_id:903, status_id:1, template_id:1, title:Ian Test Case - Check out, type_id:6], [assignedto_id:null, case_id:142811, custom_automatedtestingreferencenumber:null, custom_automation:null, custom_automation_type:0, custom_needupdate:null, custom_precondition:null, custom_regression:null, custom_release_version:[], custom_retired_test:false, custom_steps_separated:null, custom_summary:null, estimate:null, estimate_forecast:null, id:776038, milestone_id:null, priority_id:2, refs:null, run_id:903, status_id:3, template_id:1, title:Ian Test Case - Not Automated, type_id:6], [assignedto_id:null, case_id:142812, custom_automatedtestingreferencenumber:null, custom_automation:null, custom_automation_type:0, custom_needupdate:null, custom_precondition:null, custom_regression:null, custom_release_version:[], custom_retired_test:false, custom_steps_separated:null, custom_summary:null, estimate:null, estimate_forecast:null, id:776039, milestone_id:null, priority_id:2, refs:null, run_id:903, status_id:3, template_id:1, title:Ian Test Case - API Test 1, type_id:6]]
+
+2019-03-14 14:21:16 - [MESSAGE][INFO] - response=[[assignedto_id:null, case_id:130726, custom_automatedtestingreferencenumber:null, custom_automation:1, custom_automation_type:0, custom_needupdate:null, custom_precondition:null, custom_regression:2, custom_release_version:[500], custom_retired_test:false, custom_steps_separated:[[content:Navigate to http://trunk.local.com, expected:User is on home page], [content:Click Sign in button, expected:Sign In screen displays]], custom_summary:This is for Automation POC Test Case, estimate:null, estimate_forecast:null, id:776011, milestone_id:null, priority_id:2, refs:null, run_id:903, status_id:1, template_id:1, title:Ian Test Case - Sign In, type_id:6], [assignedto_id:null, case_id:142809, custom_automatedtestingreferencenumber:null, custom_automation:null, custom_automation_type:0, custom_needupdate:null, custom_precondition:null, custom_regression:null, custom_release_version:[], custom_retired_test:false, custom_steps_separated:null, custom_summary:null, estimate:null, estimate_forecast:null, id:776036, milestone_id:null, priority_id:2, refs:null, run_id:903, status_id:1, template_id:1, title:Ian Test Case - Sign In 2, type_id:6], [assignedto_id:null, case_id:142810, custom_automatedtestingreferencenumber:null, custom_automation:null, custom_automation_type:0, custom_needupdate:null, custom_precondition:null, custom_regression:null, custom_release_version:[], custom_retired_test:false, custom_steps_separated:null, custom_summary:null, estimate:null, estimate_forecast:null, id:776037, milestone_id:null, priority_id:2, refs:null, run_id:903, status_id:1, template_id:1, title:Ian Test Case - Check out, type_id:6], [assignedto_id:null, case_id:142811, custom_automatedtestingreferencenumber:null, custom_automation:null, custom_automation_type:0, custom_needupdate:null, custom_precondition:null, custom_regression:null, custom_release_version:[], custom_retired_test:false, custom_steps_separated:null, custom_summary:null, estimate:null, estimate_forecast:null, id:776038, milestone_id:null, priority_id:2, refs:null, run_id:903, status_id:3, template_id:1, title:Ian Test Case - Not Automated, type_id:6], [assignedto_id:null, case_id:142812, custom_automatedtestingreferencenumber:null, custom_automation:null, custom_automation_type:0, custom_needupdate:null, custom_precondition:null, custom_regression:null, custom_release_version:[], custom_retired_test:false, custom_steps_separated:null, custom_summary:null, estimate:null, estimate_forecast:null, id:776039, milestone_id:null, priority_id:2, refs:null, run_id:903, status_id:3, template_id:1, title:Ian Test Case - API Test 1, type_id:6]]
+
+2019-03-14 14:21:16 - [TEST_STEP][PASSED] - listof_testcases = []: null
+
+2019-03-14 14:21:16 - [TEST_STEP][PASSED] - for (def n : (0..(response[id].size - 1))): null
+
+2019-03-14 14:21:16 - [TEST_STEP][PASSED] - if (response["case_id"][n].toString() != "null"): null
+
+2019-03-14 14:21:16 - [TEST_STEP][PASSED] - listof_testcases.add(response["case_id"][n].toString()): null
+
+2019-03-14 14:21:16 - [TEST_STEP][PASSED] - if (response["case_id"][n].toString() != "null"): null
+
+2019-03-14 14:21:16 - [TEST_STEP][PASSED] - listof_testcases.add(response["case_id"][n].toString()): null
+
+2019-03-14 14:21:16 - [TEST_STEP][PASSED] - if (response["case_id"][n].toString() != "null"): null
+
+2019-03-14 14:21:16 - [TEST_STEP][PASSED] - listof_testcases.add(response["case_id"][n].toString()): null
+
+2019-03-14 14:21:16 - [TEST_STEP][PASSED] - if (response["case_id"][n].toString() != "null"): null
+
+2019-03-14 14:21:16 - [TEST_STEP][PASSED] - listof_testcases.add(response["case_id"][n].toString()): null
+
+2019-03-14 14:21:16 - [TEST_STEP][PASSED] - if (response["case_id"][n].toString() != "null"): null
+
+2019-03-14 14:21:16 - [TEST_STEP][PASSED] - listof_testcases.add(response["case_id"][n].toString()): null
+
+2019-03-14 14:21:16 - [TEST_STEP][PASSED] - comment(listof_testcases.toString()): [130726, 142809, 142810, 142811, 142812]
+
+2019-03-14 14:21:16 - [MESSAGE][INFO] - [130726, 142809, 142810, 142811, 142812]
+
+2019-03-14 14:21:16 - [TEST_STEP][PASSED] - total_testcases_to_update = []: null
+
+2019-03-14 14:21:16 - [TEST_STEP][PASSED] - for (def n : (0..(internal.GlobalVariable.G_testrail_testcase_id.size - 1))): null
+
+2019-03-14 14:21:16 - [TEST_STEP][PASSED] - if (G_testrail_testcase_id[n].toString() != "null"): null
+
+2019-03-14 14:21:16 - [TEST_STEP][PASSED] - total_testcases_to_update.add(G_testrail_testcase_id[n].toString()): null
+
+2019-03-14 14:21:16 - [TEST_STEP][PASSED] - if (G_testrail_testcase_id[n].toString() != "null"): null
+
+2019-03-14 14:21:16 - [TEST_STEP][PASSED] - total_testcases_to_update.add(G_testrail_testcase_id[n].toString()): null
+
+2019-03-14 14:21:16 - [TEST_STEP][PASSED] - response = helper.TestRail.update_run(G_testrail_testrun_id, total_testcases_to_update): helper.TestRail.update_run is PASSED
+
+2019-03-14 14:21:16 - [MESSAGE][INFO] - body = {"include_all": true}
+
+2019-03-14 14:21:16 - [MESSAGE][INFO] - HAR: C:\Users\ikhoh\Katalon Studio\InsiteCommerceAUI.Demo\Reports\Smoke Tests\20190314_142056\requests\main\1.har
+
+2019-03-14 14:21:16 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-14 14:21:16 - [MESSAGE][PASSED] - helper.TestRail.update_run is PASSED
+
+2019-03-14 14:21:16 - [TEST_STEP][PASSED] - comment("response=" + response.toString()): response={assignedto_id=null, blocked_count=0, completed_on=null, config=null, config_ids=[], created_by=27, created_on=1552056110, custom_status1_count=0, custom_status2_count=0, custom_status3_count=0, custom_status4_count=0, custom_status5_count=0, custom_status6_count=0, custom_status7_count=0, description=null, failed_count=0, id=903, include_all=true, is_completed=false, milestone_id=null, name=Ian Test Run, passed_count=3, plan_id=null, project_id=7, retest_count=0, suite_id=308, untested_count=2, url=https://insitesoft.testrail.net/index.php?/runs/view/903}
+
+2019-03-14 14:21:16 - [MESSAGE][INFO] - response={assignedto_id=null, blocked_count=0, completed_on=null, config=null, config_ids=[], created_by=27, created_on=1552056110, custom_status1_count=0, custom_status2_count=0, custom_status3_count=0, custom_status4_count=0, custom_status5_count=0, custom_status6_count=0, custom_status7_count=0, description=null, failed_count=0, id=903, include_all=true, is_completed=false, milestone_id=null, name=Ian Test Run, passed_count=3, plan_id=null, project_id=7, retest_count=0, suite_id=308, untested_count=2, url=https://insitesoft.testrail.net/index.php?/runs/view/903}
+
+2019-03-14 14:21:16 - [TEST_STEP][PASSED] - request = "{"results": [": null
+
+2019-03-14 14:21:16 - [TEST_STEP][PASSED] - status_id = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2019-03-14 14:21:16 - [TEST_STEP][PASSED] - for (def n : (0..(internal.GlobalVariable.G_testrail_testcase_id.size - 1))): null
+
+2019-03-14 14:21:16 - [TEST_STEP][PASSED] - if (G_testrail_testcase_id[n] != "null"): null
+
+2019-03-14 14:21:16 - [TEST_STEP][PASSED] - if (G_testrail_testcase_status[n] == "PASSED"): null
+
+2019-03-14 14:21:16 - [TEST_STEP][PASSED] - status_id = "1": null
+
+2019-03-14 14:21:16 - [TEST_STEP][PASSED] - date = new java.util.Date(): null
+
+2019-03-14 14:21:16 - [TEST_STEP][PASSED] - sdf = new java.text.SimpleDateFormat(MM/dd/yyyy HH:mm:ss): null
+
+2019-03-14 14:21:16 - [TEST_STEP][PASSED] - request = request.concat("{"case_id":" + G_testrail_testcase_id[n] + ","status_id":" + status_id + ","comment":"Automation Updated as of " + sdf.format(date) + ""},"): null
+
+2019-03-14 14:21:16 - [TEST_STEP][PASSED] - if (G_testrail_testcase_id[n] != "null"): null
+
+2019-03-14 14:21:16 - [TEST_STEP][PASSED] - if (G_testrail_testcase_status[n] == "PASSED"): null
+
+2019-03-14 14:21:16 - [TEST_STEP][PASSED] - status_id = "1": null
+
+2019-03-14 14:21:16 - [TEST_STEP][PASSED] - date = new java.util.Date(): null
+
+2019-03-14 14:21:16 - [TEST_STEP][PASSED] - sdf = new java.text.SimpleDateFormat(MM/dd/yyyy HH:mm:ss): null
+
+2019-03-14 14:21:16 - [TEST_STEP][PASSED] - request = request.concat("{"case_id":" + G_testrail_testcase_id[n] + ","status_id":" + status_id + ","comment":"Automation Updated as of " + sdf.format(date) + ""},"): null
+
+2019-03-14 14:21:16 - [TEST_STEP][PASSED] - request = request.substring(0, request.length() - 1): null
+
+2019-03-14 14:21:16 - [TEST_STEP][PASSED] - request = request.concat("]}"): null
+
+2019-03-14 14:21:16 - [TEST_STEP][PASSED] - request = request.replaceAll("null,", ""): null
+
+2019-03-14 14:21:16 - [TEST_STEP][PASSED] - request = request.replaceAll("null", ""): null
+
+2019-03-14 14:21:16 - [TEST_STEP][PASSED] - comment("request=" + request.toString()): request={"results": [{"case_id":130726,"status_id":1,"comment":"Automation Updated as of 03/14/2019 14:21:16"},{"case_id":142809,"status_id":1,"comment":"Automation Updated as of 03/14/2019 14:21:16"}]}
+
+2019-03-14 14:21:16 - [MESSAGE][INFO] - request={"results": [{"case_id":130726,"status_id":1,"comment":"Automation Updated as of 03/14/2019 14:21:16"},{"case_id":142809,"status_id":1,"comment":"Automation Updated as of 03/14/2019 14:21:16"}]}
+
+2019-03-14 14:21:16 - [TEST_STEP][PASSED] - response = helper.TestRail.add_results(G_testrail_testrun_id, request): helper.TestRail.add_results is PASSED
+
+2019-03-14 14:21:16 - [MESSAGE][INFO] - body = {"results": [{"case_id":130726,"status_id":1,"comment":"Automation Updated as of 03/14/2019 14:21:16"},{"case_id":142809,"status_id":1,"comment":"Automation Updated as of 03/14/2019 14:21:16"}]}
+
+2019-03-14 14:21:17 - [MESSAGE][INFO] - HAR: C:\Users\ikhoh\Katalon Studio\InsiteCommerceAUI.Demo\Reports\Smoke Tests\20190314_142056\requests\main\2.har
+
+2019-03-14 14:21:17 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-14 14:21:17 - [MESSAGE][PASSED] - helper.TestRail.add_results is PASSED
+
+2019-03-14 14:21:17 - [TEST_STEP][PASSED] - comment("response=" + response.toString()): response=[[assignedto_id:null, comment:Automation Updated as of 03/14/2019 14:21:16, created_by:27, created_on:1552591277, custom_step_results:null, defects:null, elapsed:null, id:84574, status_id:1, test_id:776011, version:null], [assignedto_id:null, comment:Automation Updated as of 03/14/2019 14:21:16, created_by:27, created_on:1552591277, custom_step_results:null, defects:null, elapsed:null, id:84575, status_id:1, test_id:776036, version:null]]
+
+2019-03-14 14:21:17 - [MESSAGE][INFO] - response=[[assignedto_id:null, comment:Automation Updated as of 03/14/2019 14:21:16, created_by:27, created_on:1552591277, custom_step_results:null, defects:null, elapsed:null, id:84574, status_id:1, test_id:776011, version:null], [assignedto_id:null, comment:Automation Updated as of 03/14/2019 14:21:16, created_by:27, created_on:1552591277, custom_step_results:null, defects:null, elapsed:null, id:84575, status_id:1, test_id:776036, version:null]]
+
+2019-03-14 14:21:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/_UpdateTestRailResults' successfully
+
+2019-03-14 14:21:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-14 14:21:18 - [MESSAGE][PASSED] - Browser is closed
+
+2019-03-14 14:21:18 - [TEST_STEP][PASSED] - helper.Cmd.KillAllChromeDrivers(): helper.Cmd.KillAllChromeDrivers is PASSED
+
+2019-03-14 14:21:18 - [MESSAGE][PASSED] - helper.Cmd.KillAllChromeDrivers is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pages/Check Out/BasicGuestCheckOut" classname="Test Cases/Pages/Check Out/BasicGuestCheckOut" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Pages/Check Out/BasicGuestCheckOut FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/UI/Page_Cart/link_CheckOut'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at helper.Driver.waitForElementThenClick(Driver.groovy:27)
+	at helper.Driver.invokeMethod(Driver.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at BasicGuestCheckOut.run(BasicGuestCheckOut:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552591256342.run(TempTestSuite1552591256342.groovy:35)
+"/>
+         <system-out><![CDATA[2019-03-14 14:21:18 - [TEST_CASE][FAILED] - Test Cases/Pages/Check Out/BasicGuestCheckOut: Test Cases/Pages/Check Out/BasicGuestCheckOut FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/UI/Page_Cart/link_CheckOut'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at helper.Driver.waitForElementThenClick(Driver.groovy:27)
+	at helper.Driver.invokeMethod(Driver.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at BasicGuestCheckOut.run(BasicGuestCheckOut:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552591256342.run(TempTestSuite1552591256342.groovy:35)
+
+
+2019-03-14 14:21:18 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Browser is opened with url: ''
+
+2019-03-14 14:21:18 - [TEST_STEP][PASSED] - println("============> Test Case: " + testCaseContext.getTestCaseId() + "<============"): null
+
+2019-03-14 14:21:18 - [TEST_STEP][PASSED] - if (resetDatabase_everyTestCase): null
+
+2019-03-14 14:21:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-14 14:21:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-14 14:21:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-14 14:21:20 - [TEST_STEP][PASSED] - navigateToUrl(BasicProduct_100): Navigate to 'https://trunk.local.com/Catalog/BasicSubCategory1/BasicProduct-100' successfully
+
+2019-03-14 14:21:21 - [MESSAGE][PASSED] - Navigate to 'https://trunk.local.com/Catalog/BasicSubCategory1/BasicProduct-100' successfully
+
+2019-03-14 14:21:21 - [TEST_STEP][PASSED] - waitForAngularLoad(waitTime): Angular is ready.
+
+2019-03-14 14:21:22 - [MESSAGE][PASSED] - Angular is ready.
+
+2019-03-14 14:21:22 - [TEST_STEP][PASSED] - helper.Driver.waitForElementThenClick(findTestObject("UI/Page_Catalog/Product_Details/button_AddToCart")): helper.Driver.waitForElementThenClick is PASSED
+
+2019-03-14 14:21:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-14 14:21:47 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Page_Catalog/Product_Details/button_AddToCart' is clickable
+
+2019-03-14 14:21:48 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Catalog/Product_Details/button_AddToCart' is clicked on
+
+2019-03-14 14:21:48 - [MESSAGE][PASSED] - helper.Driver.waitForElementThenClick is PASSED
+
+2019-03-14 14:21:48 - [TEST_STEP][PASSED] - navigateToUrl(Cart): Navigate to 'https://trunk.local.com/Cart' successfully
+
+2019-03-14 14:21:48 - [MESSAGE][PASSED] - Navigate to 'https://trunk.local.com/Cart' successfully
+
+2019-03-14 14:21:48 - [TEST_STEP][FAILED] - helper.Driver.waitForElementThenClick(findTestObject("UI/Page_Cart/link_CheckOut")): helper.Driver.waitForElementThenClick(findTestObject("UI/Page_Cart/link_CheckOut")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/UI/Page_Cart/link_CheckOut'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at helper.Driver.waitForElementThenClick(Driver.groovy:27)
+	at helper.Driver.invokeMethod(Driver.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at BasicGuestCheckOut.run(BasicGuestCheckOut:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552591256342.run(TempTestSuite1552591256342.groovy:35)
+
+
+2019-03-14 14:21:49 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-14 14:22:19 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: #tst_cartPage_buttons .tst_cartPage_checkout'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-03-14 14:22:19 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/UI/Page_Cart/link_CheckOut' located by 'By.cssSelector: #tst_cartPage_buttons .tst_cartPage_checkout' not found
+
+2019-03-14 14:22:50 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: #tst_cartPage_buttons .tst_cartPage_checkout'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-03-14 14:22:50 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/UI/Page_Cart/link_CheckOut'
+[[ATTACHMENT|C:\\Users\\ikhoh\\Katalon Studio\\InsiteCommerceAUI.Demo\\Reports\\Smoke Tests\\20190314_142056\\1552591370665.png]]
+
+2019-03-14 14:22:50 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/UI/Page_Cart/link_CheckOut'
+
+2019-03-14 14:22:50 - [MESSAGE][FAILED] - helper.Driver.waitForElementThenClick(findTestObject("UI/Page_Cart/link_CheckOut")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/UI/Page_Cart/link_CheckOut'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at helper.Driver.waitForElementThenClick(Driver.groovy:27)
+	at helper.Driver.invokeMethod(Driver.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at BasicGuestCheckOut.run(BasicGuestCheckOut:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552591256342.run(TempTestSuite1552591256342.groovy:35)
+
+
+2019-03-14 14:22:50 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: helper.Cmd.KillAllChromeDrivers is PASSED
+
+2019-03-14 14:22:50 - [TEST_STEP][PASSED] - if (!(G_testrail_testcase_id.isEmpty())): null
+
+2019-03-14 14:22:50 - [TEST_STEP][PASSED] - G_testrail_testcase_id.clear(): null
+
+2019-03-14 14:22:50 - [TEST_STEP][PASSED] - if (!(G_testrail_testcase_status.isEmpty())): null
+
+2019-03-14 14:22:50 - [TEST_STEP][PASSED] - G_testrail_testcase_status.clear(): null
+
+2019-03-14 14:22:50 - [TEST_STEP][PASSED] - testcase_ids = getTestCaseVariables()["TestRail_TestCaseID"].split(","): null
+
+2019-03-14 14:22:50 - [TEST_STEP][PASSED] - for (def n : (0..(testcase_ids.length - 1))): null
+
+2019-03-14 14:22:50 - [TEST_STEP][PASSED] - G_testrail_testcase_id.add(testcase_ids[n]): null
+
+2019-03-14 14:22:50 - [TEST_STEP][PASSED] - G_testrail_testcase_status.add(testCaseContext.getTestCaseStatus()): null
+
+2019-03-14 14:22:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Utilities/_UpdateTestRailResults"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Utilities/_UpdateTestRailResults' successfully
+
+2019-03-14 14:22:51 - [TEST_CASE][PASSED] - Test Cases/Utilities/_UpdateTestRailResults: Test Cases/Utilities/_UpdateTestRailResults
+
+2019-03-14 14:22:51 - [TEST_STEP][PASSED] - response = helper.TestRail.get_tests(G_testrail_testrun_id): helper.TestRail.get_tests is PASSED
+
+2019-03-14 14:22:51 - [MESSAGE][INFO] - HAR: C:\Users\ikhoh\Katalon Studio\InsiteCommerceAUI.Demo\Reports\Smoke Tests\20190314_142056\requests\main\3.har
+
+2019-03-14 14:22:51 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-14 14:22:51 - [MESSAGE][PASSED] - helper.TestRail.get_tests is PASSED
+
+2019-03-14 14:22:51 - [TEST_STEP][PASSED] - comment("response=" + response.toString()): response=[[assignedto_id:null, case_id:130726, custom_automatedtestingreferencenumber:null, custom_automation:1, custom_automation_type:0, custom_needupdate:null, custom_precondition:null, custom_regression:2, custom_release_version:[500], custom_retired_test:false, custom_steps_separated:[[content:Navigate to http://trunk.local.com, expected:User is on home page], [content:Click Sign in button, expected:Sign In screen displays]], custom_summary:This is for Automation POC Test Case, estimate:null, estimate_forecast:null, id:776011, milestone_id:null, priority_id:2, refs:null, run_id:903, status_id:1, template_id:1, title:Ian Test Case - Sign In, type_id:6], [assignedto_id:null, case_id:142809, custom_automatedtestingreferencenumber:null, custom_automation:null, custom_automation_type:0, custom_needupdate:null, custom_precondition:null, custom_regression:null, custom_release_version:[], custom_retired_test:false, custom_steps_separated:null, custom_summary:null, estimate:null, estimate_forecast:null, id:776036, milestone_id:null, priority_id:2, refs:null, run_id:903, status_id:1, template_id:1, title:Ian Test Case - Sign In 2, type_id:6], [assignedto_id:null, case_id:142810, custom_automatedtestingreferencenumber:null, custom_automation:null, custom_automation_type:0, custom_needupdate:null, custom_precondition:null, custom_regression:null, custom_release_version:[], custom_retired_test:false, custom_steps_separated:null, custom_summary:null, estimate:null, estimate_forecast:null, id:776037, milestone_id:null, priority_id:2, refs:null, run_id:903, status_id:1, template_id:1, title:Ian Test Case - Check out, type_id:6], [assignedto_id:null, case_id:142811, custom_automatedtestingreferencenumber:null, custom_automation:null, custom_automation_type:0, custom_needupdate:null, custom_precondition:null, custom_regression:null, custom_release_version:[], custom_retired_test:false, custom_steps_separated:null, custom_summary:null, estimate:null, estimate_forecast:null, id:776038, milestone_id:null, priority_id:2, refs:null, run_id:903, status_id:3, template_id:1, title:Ian Test Case - Not Automated, type_id:6], [assignedto_id:null, case_id:142812, custom_automatedtestingreferencenumber:null, custom_automation:null, custom_automation_type:0, custom_needupdate:null, custom_precondition:null, custom_regression:null, custom_release_version:[], custom_retired_test:false, custom_steps_separated:null, custom_summary:null, estimate:null, estimate_forecast:null, id:776039, milestone_id:null, priority_id:2, refs:null, run_id:903, status_id:3, template_id:1, title:Ian Test Case - API Test 1, type_id:6]]
+
+2019-03-14 14:22:51 - [MESSAGE][INFO] - response=[[assignedto_id:null, case_id:130726, custom_automatedtestingreferencenumber:null, custom_automation:1, custom_automation_type:0, custom_needupdate:null, custom_precondition:null, custom_regression:2, custom_release_version:[500], custom_retired_test:false, custom_steps_separated:[[content:Navigate to http://trunk.local.com, expected:User is on home page], [content:Click Sign in button, expected:Sign In screen displays]], custom_summary:This is for Automation POC Test Case, estimate:null, estimate_forecast:null, id:776011, milestone_id:null, priority_id:2, refs:null, run_id:903, status_id:1, template_id:1, title:Ian Test Case - Sign In, type_id:6], [assignedto_id:null, case_id:142809, custom_automatedtestingreferencenumber:null, custom_automation:null, custom_automation_type:0, custom_needupdate:null, custom_precondition:null, custom_regression:null, custom_release_version:[], custom_retired_test:false, custom_steps_separated:null, custom_summary:null, estimate:null, estimate_forecast:null, id:776036, milestone_id:null, priority_id:2, refs:null, run_id:903, status_id:1, template_id:1, title:Ian Test Case - Sign In 2, type_id:6], [assignedto_id:null, case_id:142810, custom_automatedtestingreferencenumber:null, custom_automation:null, custom_automation_type:0, custom_needupdate:null, custom_precondition:null, custom_regression:null, custom_release_version:[], custom_retired_test:false, custom_steps_separated:null, custom_summary:null, estimate:null, estimate_forecast:null, id:776037, milestone_id:null, priority_id:2, refs:null, run_id:903, status_id:1, template_id:1, title:Ian Test Case - Check out, type_id:6], [assignedto_id:null, case_id:142811, custom_automatedtestingreferencenumber:null, custom_automation:null, custom_automation_type:0, custom_needupdate:null, custom_precondition:null, custom_regression:null, custom_release_version:[], custom_retired_test:false, custom_steps_separated:null, custom_summary:null, estimate:null, estimate_forecast:null, id:776038, milestone_id:null, priority_id:2, refs:null, run_id:903, status_id:3, template_id:1, title:Ian Test Case - Not Automated, type_id:6], [assignedto_id:null, case_id:142812, custom_automatedtestingreferencenumber:null, custom_automation:null, custom_automation_type:0, custom_needupdate:null, custom_precondition:null, custom_regression:null, custom_release_version:[], custom_retired_test:false, custom_steps_separated:null, custom_summary:null, estimate:null, estimate_forecast:null, id:776039, milestone_id:null, priority_id:2, refs:null, run_id:903, status_id:3, template_id:1, title:Ian Test Case - API Test 1, type_id:6]]
+
+2019-03-14 14:22:51 - [TEST_STEP][PASSED] - listof_testcases = []: null
+
+2019-03-14 14:22:51 - [TEST_STEP][PASSED] - for (def n : (0..(response[id].size - 1))): null
+
+2019-03-14 14:22:51 - [TEST_STEP][PASSED] - if (response["case_id"][n].toString() != "null"): null
+
+2019-03-14 14:22:51 - [TEST_STEP][PASSED] - listof_testcases.add(response["case_id"][n].toString()): null
+
+2019-03-14 14:22:51 - [TEST_STEP][PASSED] - if (response["case_id"][n].toString() != "null"): null
+
+2019-03-14 14:22:51 - [TEST_STEP][PASSED] - listof_testcases.add(response["case_id"][n].toString()): null
+
+2019-03-14 14:22:51 - [TEST_STEP][PASSED] - if (response["case_id"][n].toString() != "null"): null
+
+2019-03-14 14:22:51 - [TEST_STEP][PASSED] - listof_testcases.add(response["case_id"][n].toString()): null
+
+2019-03-14 14:22:51 - [TEST_STEP][PASSED] - if (response["case_id"][n].toString() != "null"): null
+
+2019-03-14 14:22:51 - [TEST_STEP][PASSED] - listof_testcases.add(response["case_id"][n].toString()): null
+
+2019-03-14 14:22:51 - [TEST_STEP][PASSED] - if (response["case_id"][n].toString() != "null"): null
+
+2019-03-14 14:22:51 - [TEST_STEP][PASSED] - listof_testcases.add(response["case_id"][n].toString()): null
+
+2019-03-14 14:22:51 - [TEST_STEP][PASSED] - comment(listof_testcases.toString()): [130726, 142809, 142810, 142811, 142812]
+
+2019-03-14 14:22:51 - [MESSAGE][INFO] - [130726, 142809, 142810, 142811, 142812]
+
+2019-03-14 14:22:51 - [TEST_STEP][PASSED] - total_testcases_to_update = []: null
+
+2019-03-14 14:22:51 - [TEST_STEP][PASSED] - for (def n : (0..(internal.GlobalVariable.G_testrail_testcase_id.size - 1))): null
+
+2019-03-14 14:22:51 - [TEST_STEP][PASSED] - if (G_testrail_testcase_id[n].toString() != "null"): null
+
+2019-03-14 14:22:51 - [TEST_STEP][PASSED] - total_testcases_to_update.add(G_testrail_testcase_id[n].toString()): null
+
+2019-03-14 14:22:51 - [TEST_STEP][PASSED] - response = helper.TestRail.update_run(G_testrail_testrun_id, total_testcases_to_update): helper.TestRail.update_run is PASSED
+
+2019-03-14 14:22:51 - [MESSAGE][INFO] - body = {"include_all": true}
+
+2019-03-14 14:22:52 - [MESSAGE][INFO] - HAR: C:\Users\ikhoh\Katalon Studio\InsiteCommerceAUI.Demo\Reports\Smoke Tests\20190314_142056\requests\main\4.har
+
+2019-03-14 14:22:52 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-14 14:22:52 - [MESSAGE][PASSED] - helper.TestRail.update_run is PASSED
+
+2019-03-14 14:22:52 - [TEST_STEP][PASSED] - comment("response=" + response.toString()): response={assignedto_id=null, blocked_count=0, completed_on=null, config=null, config_ids=[], created_by=27, created_on=1552056110, custom_status1_count=0, custom_status2_count=0, custom_status3_count=0, custom_status4_count=0, custom_status5_count=0, custom_status6_count=0, custom_status7_count=0, description=null, failed_count=0, id=903, include_all=true, is_completed=false, milestone_id=null, name=Ian Test Run, passed_count=3, plan_id=null, project_id=7, retest_count=0, suite_id=308, untested_count=2, url=https://insitesoft.testrail.net/index.php?/runs/view/903}
+
+2019-03-14 14:22:52 - [MESSAGE][INFO] - response={assignedto_id=null, blocked_count=0, completed_on=null, config=null, config_ids=[], created_by=27, created_on=1552056110, custom_status1_count=0, custom_status2_count=0, custom_status3_count=0, custom_status4_count=0, custom_status5_count=0, custom_status6_count=0, custom_status7_count=0, description=null, failed_count=0, id=903, include_all=true, is_completed=false, milestone_id=null, name=Ian Test Run, passed_count=3, plan_id=null, project_id=7, retest_count=0, suite_id=308, untested_count=2, url=https://insitesoft.testrail.net/index.php?/runs/view/903}
+
+2019-03-14 14:22:52 - [TEST_STEP][PASSED] - request = "{"results": [": null
+
+2019-03-14 14:22:52 - [TEST_STEP][PASSED] - status_id = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2019-03-14 14:22:52 - [TEST_STEP][PASSED] - for (def n : (0..(internal.GlobalVariable.G_testrail_testcase_id.size - 1))): null
+
+2019-03-14 14:22:52 - [TEST_STEP][PASSED] - if (G_testrail_testcase_id[n] != "null"): null
+
+2019-03-14 14:22:52 - [TEST_STEP][PASSED] - if (G_testrail_testcase_status[n] == "PASSED"): null
+
+2019-03-14 14:22:52 - [TEST_STEP][PASSED] - else: null
+
+2019-03-14 14:22:52 - [TEST_STEP][PASSED] - status_id = "5": null
+
+2019-03-14 14:22:52 - [TEST_STEP][PASSED] - date = new java.util.Date(): null
+
+2019-03-14 14:22:52 - [TEST_STEP][PASSED] - sdf = new java.text.SimpleDateFormat(MM/dd/yyyy HH:mm:ss): null
+
+2019-03-14 14:22:52 - [TEST_STEP][PASSED] - request = request.concat("{"case_id":" + G_testrail_testcase_id[n] + ","status_id":" + status_id + ","comment":"Automation Updated as of " + sdf.format(date) + ""},"): null
+
+2019-03-14 14:22:52 - [TEST_STEP][PASSED] - request = request.substring(0, request.length() - 1): null
+
+2019-03-14 14:22:52 - [TEST_STEP][PASSED] - request = request.concat("]}"): null
+
+2019-03-14 14:22:52 - [TEST_STEP][PASSED] - request = request.replaceAll("null,", ""): null
+
+2019-03-14 14:22:52 - [TEST_STEP][PASSED] - request = request.replaceAll("null", ""): null
+
+2019-03-14 14:22:52 - [TEST_STEP][PASSED] - comment("request=" + request.toString()): request={"results": [{"case_id":142810,"status_id":5,"comment":"Automation Updated as of 03/14/2019 14:22:52"}]}
+
+2019-03-14 14:22:52 - [MESSAGE][INFO] - request={"results": [{"case_id":142810,"status_id":5,"comment":"Automation Updated as of 03/14/2019 14:22:52"}]}
+
+2019-03-14 14:22:52 - [TEST_STEP][PASSED] - response = helper.TestRail.add_results(G_testrail_testrun_id, request): helper.TestRail.add_results is PASSED
+
+2019-03-14 14:22:52 - [MESSAGE][INFO] - body = {"results": [{"case_id":142810,"status_id":5,"comment":"Automation Updated as of 03/14/2019 14:22:52"}]}
+
+2019-03-14 14:22:52 - [MESSAGE][INFO] - HAR: C:\Users\ikhoh\Katalon Studio\InsiteCommerceAUI.Demo\Reports\Smoke Tests\20190314_142056\requests\main\5.har
+
+2019-03-14 14:22:52 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-14 14:22:52 - [MESSAGE][PASSED] - helper.TestRail.add_results is PASSED
+
+2019-03-14 14:22:52 - [TEST_STEP][PASSED] - comment("response=" + response.toString()): response=[[assignedto_id:null, comment:Automation Updated as of 03/14/2019 14:22:52, created_by:27, created_on:1552591372, custom_step_results:null, defects:null, elapsed:null, id:84576, status_id:5, test_id:776037, version:null]]
+
+2019-03-14 14:22:52 - [MESSAGE][INFO] - response=[[assignedto_id:null, comment:Automation Updated as of 03/14/2019 14:22:52, created_by:27, created_on:1552591372, custom_step_results:null, defects:null, elapsed:null, id:84576, status_id:5, test_id:776037, version:null]]
+
+2019-03-14 14:22:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/_UpdateTestRailResults' successfully
+
+2019-03-14 14:22:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-14 14:22:53 - [MESSAGE][PASSED] - Browser is closed
+
+2019-03-14 14:22:53 - [TEST_STEP][PASSED] - helper.Cmd.KillAllChromeDrivers(): helper.Cmd.KillAllChromeDrivers is PASSED
+
+2019-03-14 14:22:53 - [MESSAGE][PASSED] - helper.Cmd.KillAllChromeDrivers is PASSED]]></system-out>
+         <system-err><![CDATA[2019-03-14 14:21:18 - [TEST_CASE][FAILED] - Test Cases/Pages/Check Out/BasicGuestCheckOut: Test Cases/Pages/Check Out/BasicGuestCheckOut FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/UI/Page_Cart/link_CheckOut'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at helper.Driver.waitForElementThenClick(Driver.groovy:27)
+	at helper.Driver.invokeMethod(Driver.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at BasicGuestCheckOut.run(BasicGuestCheckOut:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552591256342.run(TempTestSuite1552591256342.groovy:35)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-14 14:20:58 - [TEST_SUITE][FAILED] - Smoke Tests: Test Cases/Pages/Check Out/BasicGuestCheckOut FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/UI/Page_Cart/link_CheckOut'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at helper.Driver.waitForElementThenClick(Driver.groovy:27)
+	at helper.Driver.invokeMethod(Driver.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at BasicGuestCheckOut.run(BasicGuestCheckOut:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552591256342.run(TempTestSuite1552591256342.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-03-14 14:20:58 - [TEST_SUITE][FAILED] - Smoke Tests: Test Cases/Pages/Check Out/BasicGuestCheckOut FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/UI/Page_Cart/link_CheckOut'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at helper.Driver.waitForElementThenClick(Driver.groovy:27)
+	at helper.Driver.invokeMethod(Driver.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at BasicGuestCheckOut.run(BasicGuestCheckOut:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552591256342.run(TempTestSuite1552591256342.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="452" result="Failed" total="452" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.9.0.0" clr-version="4.0.30319.42000" start-time="2019-03-20 16:07:54Z" end-time="2019-03-20 16:14:14Z" duration="379.929224">
+  <command-line><![CDATA["C:\Program Files (x86)\NUnit.org\nunit-console\nunit3-console.exe" C:\Projects\Insite.Commerce.Source\trunk\Automation\Insite.Admin.Automated\bin\Debug\Insite.Admin.Automated.dll --test=Insite.Admin.Automated.Tests.DatabaseReset]]></command-line>
+  <filter>
+    <test>Insite.Admin.Automated.Tests.DatabaseReset</test>
+  </filter>
+  <test-suite type="Assembly" id="0-1544" name="C:\Projects\Insite.Commerce.Source\trunk\Automation\Insite.Admin.Automated\bin\Debug\Insite.Admin.Automated.dll" fullname="C:\Projects\Insite.Commerce.Source\trunk\Automation\Insite.Admin.Automated\bin\Debug\Insite.Admin.Automated.dll" runstate="Runnable" testcasecount="452" result="Failed" duration="378.373016" total="452" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0" site="Child">
+    <properties>
+      <property name="_PID" value="36648" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Namespace" id="0-1545" name="Insite" fullname="Insite" runstate="Runnable" testcasecount="452" result="Failed" duration="378.365712" total="452" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0" site="Child">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="Namespace" id="0-1546" name="Admin" fullname="Insite.Admin" runstate="Runnable" testcasecount="452" result="Failed" duration="378.365206" total="452" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0" site="Child">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="SetUpFixture" id="0-1000" name="Automated" fullname="Insite.Admin.Automated.OncePerAssemblySetUp" classname="Insite.Admin.Automated.OncePerAssemblySetUp" runstate="Runnable" testcasecount="452" result="Failed" duration="378.364232" total="452" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0" site="Child">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="Namespace" id="0-1549" name="Tests" fullname="Insite.Admin.Automated.Tests" runstate="Runnable" testcasecount="395" result="Failed" duration="8.062730" total="395" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0" site="SetUp">
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestFixture" id="0-1262" name="DatabaseReset" fullname="Insite.Admin.Automated.Tests.DatabaseReset" classname="Insite.Admin.Automated.Tests.DatabaseReset" runstate="Runnable" testcasecount="1" result="Failed" duration="8.060523" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0" site="Parent">
+              <failure>
+                <message><![CDATA[OncePerNameSpaceSetUp. 
+
+Exception: The Search Index job did not complete successfully and had a status of ''. This may be because your website is not pointing at the database you think it is. It may also be because your internal WIS did not pick up the job. If you run in release locally this could be the case. You can add your machine name to 11-AllowWis.sql 
+StackTrace:    at Insite.Automated.Core.SqlHelper.CreateSearchIndex() in C:\Projects\Insite.Commerce.Source\trunk\Automation\Insite.Automated.Core\SqlHelper.cs:line 299
+   at Insite.Automated.Core.SqlHelper.DropAndRecreateDatabase(Assembly assembly) in C:\Projects\Insite.Commerce.Source\trunk\Automation\Insite.Automated.Core\SqlHelper.cs:line 140
+   at Insite.Automated.Core.BaseSetUpFixture.OncePerNameSpaceSetUp() in C:\Projects\Insite.Commerce.Source\trunk\Automation\Insite.Automated.Core\BaseSetUpFixture.cs:line 21]]></message>
+                <stack-trace><![CDATA[   at NUnit.Framework.Assert.Fail(String message, Object[] args)
+   at Insite.Automated.Core.BaseTest.BeforeAllTests() in C:\Projects\Insite.Commerce.Source\trunk\Automation\Insite.Automated.Core\BaseTest.cs:line 30]]></stack-trace>
+              </failure>
+              <test-case id="0-1263" name="ResetDatabase" fullname="Insite.Admin.Automated.Tests.DatabaseReset.ResetDatabase" methodname="ResetDatabase" classname="Insite.Admin.Automated.Tests.DatabaseReset" runstate="Ignored" result="Failed" duration="0.000000" asserts="0">
+                <properties>
+                  <property name="_IGNOREREASON" value="This is only run manually" />
+                </properties>
+                <failure>
+                  <message><![CDATA[TestFixtureSetUp failed in DatabaseReset]]></message>
+                </failure>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

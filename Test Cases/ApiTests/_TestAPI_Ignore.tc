@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>_TestAPI_Ignore</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a8fa9590-1f3d-4900-9fef-4de17c1aaadb</testCaseGuid>
+   <variable>
+      <defaultValue>'142812'</defaultValue>
+      <description></description>
+      <id>2199952c-211b-43cf-99e0-bd0dd6611264</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>
